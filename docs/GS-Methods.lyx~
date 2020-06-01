@@ -1,0 +1,666 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass extarticle
+\begin_preamble
+\usepackage{charter}
+\usepackage{enumitem}
+\setlist{leftmargin=3.5mm}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip smallskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+GS Methods
+\end_layout
+
+\begin_layout Description
+Genomic
+\begin_inset space ~
+\end_inset
+
+Selection
+\begin_inset space ~
+\end_inset
+
+(GS): 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Genomic selection (GS) promises to accelerate the rate of genetic gain in
+ plant breeding for genetically complex traits, including yield, by selecting
+ individuals of high breeding value earlier in the breeding cycle.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Genomic
+\begin_inset space ~
+\end_inset
+
+estimated
+\begin_inset space ~
+\end_inset
+
+breeding
+\begin_inset space ~
+\end_inset
+
+value
+\begin_inset space ~
+\end_inset
+
+(GEBV):
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+The GS approach is novel in that it simultaneously estimates 
+\series bold
+all genome-wide marker effects
+\series default
+ to predict an individual’s genomic estimated breeding value (
+\series bold
+GEBV
+\series default
+), contrary to estimate marker effects based on their level of significance
+ (e.g MAS).
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Genomic
+\begin_inset space ~
+\end_inset
+
+information:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+As the cost and efficiency of obtaining genomic information on plants (or
+ animals) below the cost and efficiency of evaluating individuals over years
+ and locations, genomic information can more affordably be leveraged to
+ predict phenotypic performance.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Shortening
+\begin_inset space ~
+\end_inset
+
+of
+\begin_inset space ~
+\end_inset
+
+the
+\begin_inset space ~
+\end_inset
+
+breeding
+\begin_inset space ~
+\end_inset
+
+cycle:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+GS can facilitate a shortening of the breeding cycle and enable earlier
+ selection and intercrossing of early-generation breeding material.
+ 
+\end_layout
+
+\begin_layout Itemize
+GS-based cycle time may be reduced to one or two years from the traditional
+ five to seven years as selection of lines prior to field testing allows
+ shortening of the generation interval typical with phenotypic selection
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Potential
+\begin_inset space ~
+\end_inset
+
+advantages
+\begin_inset space ~
+\end_inset
+
+of
+\begin_inset space ~
+\end_inset
+
+GS:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+One of the greatest potential advantages of GS is its ability to identify
+ individuals with higher breeding values without the requirement of collecting
+ phenotypes pertaining to those individuals.
+ 
+\end_layout
+
+\begin_layout Itemize
+It has been shown that selection of individuals based on GEBV can substantially
+ increase the rate of genetic gain in plant breeding compared to traditional
+ marker-assisted selection (MAS) or phenotypic selection.
+\end_layout
+
+\begin_layout Itemize
+GS can facilitate a shortening of the breeding cycle and enable earlier
+ selection and intercrossing of early-generation breeding material.
+ 
+\end_layout
+
+\begin_layout Itemize
+GS-based cycle time may be reduced to one or two years from the traditional
+ five to seven years as selection of lines prior to field testing allows
+ shortening of the generation interval typical with phenotypic selection.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Training
+\begin_inset space ~
+\end_inset
+
+Population: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+GS prediction models are developed using a 
+\series bold
+training population
+\series default
+ consisting of individuals with both genome-wide marker 
+\series bold
+genotypes and phenotypes
+\series default
+ of interest.
+\end_layout
+
+\begin_layout Itemize
+These individuals are used to train a model by simultaneously estimating
+ the contribution of marker effects to their phenotypic value.
+\end_layout
+
+\begin_layout Itemize
+GS models utilize information gathered from the training population 
+\series bold
+to estimate a breeding value and predict
+\series default
+ the performance of breeding lines without phenotypes.
+\end_layout
+
+\begin_layout Itemize
+Dense marker coverage is needed in order to maximize the number of QTL in
+ linkage disequilibrium (LD) with at least one marker, thereby maximizing
+ the number of QTL effects captured by the molecular markers.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Large
+\begin_inset space ~
+\end_inset
+
+p,
+\begin_inset space ~
+\end_inset
+
+small
+\begin_inset space ~
+\end_inset
+
+n
+\begin_inset space ~
+\end_inset
+
+problem:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+With a large number of genetic markers there will often be more effects
+ to be estimated than there are phenotypic data points for which to estimate
+ them.
+\end_layout
+
+\begin_layout Itemize
+It is a concern for GS as it can cause over-fitting of the model which exaggerat
+es minor fluctuations in the data and is due to collinearity between markers
+ (Lorenz et al., 2011).
+ 
+\end_layout
+
+\begin_layout Itemize
+This creates a model that is highly accurate when evaluating the training
+ population but has poor predictive ability when applied to a different
+ test population.
+\end_layout
+
+\begin_layout Itemize
+Research has shown that GS models have diminishing returns for additional
+ markers once the populations have reached the point of ‘marker saturation’.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Composition
+\begin_inset space ~
+\end_inset
+
+of_training_populatio:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+One of the most important factors in developing a GS model is the composition
+ of individuals included in the training population set.
+\end_layout
+
+\begin_layout Itemize
+Prediction accuracies are maximized when the training population and the
+ test population (selection candidates) are closely related.
+\end_layout
+
+\begin_layout Itemize
+More closely related individuals share a common ancestry fewer generations
+ back, and, therefore, fewer opportunities for recombination between markers
+ and QTL, thus preserving QTL-marker linkage phases.
+\end_layout
+
+\begin_layout Itemize
+Several studies have shown that training population size has a greater impact
+ on GS prediction accuracy than marker number, with a smaller training populatio
+n size having a strong negative effect on GS prediction accuracy.
+\end_layout
+
+\begin_layout Itemize
+Studies have shown that combining genotypes from 
+\series bold
+multiple populations
+\series default
+ in order to create a 
+\series bold
+larger training population
+\series default
+ results in 
+\series bold
+higher prediction
+\series default
+ accuracies than analysing individual populations with fewer genotypes in
+ the training population
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Genomic
+\begin_inset space ~
+\end_inset
+
+Selection
+\begin_inset space ~
+\end_inset
+
+Models:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The GS concept encompasses a broad range of methods
+\end_layout
+
+\begin_layout Itemize
+Their common feature is to estimate the breeding values of individuals for
+ quantitative traits using whole genome genotypes through the simultaneous
+ estimation of marker effects in a single step
+\end_layout
+
+\begin_layout Itemize
+With the increased popularity of GS in plant breeding, numerous models have
+ been proposed:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Ridge regression-best linear unbiased prediction (RR-BLUP) 
+\end_layout
+
+\begin_layout Itemize
+Bayesian regression
+\end_layout
+
+\begin_layout Itemize
+Kernel regression, and 
+\end_layout
+
+\begin_layout Itemize
+Machine learning
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Description
+Ridge
+\begin_inset space ~
+\end_inset
+
+regression-best
+\begin_inset space ~
+\end_inset
+
+linear
+\begin_inset space ~
+\end_inset
+
+unbiased
+\begin_inset space ~
+\end_inset
+
+prediction
+\begin_inset space ~
+\end_inset
+
+(RR-BLUP):
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Makes the assumption that markers are random effects having nonzero effects
+ with equal marker variance
+\end_layout
+
+\begin_layout Itemize
+This assumption does not mean the effects of all markers are equal, rather,
+ they are all equally shrunk toward zero
+\end_layout
+
+\begin_layout Itemize
+By shrinking all marker effects to the same degree and including all markers
+ in the model, the use of RR-BLUP is 
+\series bold
+best suited for traits controlled by many loci with small effects
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Bayesian
+\begin_inset space ~
+\end_inset
+
+models:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Bayesian models address the simple but likely unrealistic assumptions that
+ all markers have nonzero effects and that markers have equal variance.
+\end_layout
+
+\begin_layout Itemize
+Bayesian models relax these two assumptions and better model marker effects
+ of differing sizes
+\end_layout
+
+\begin_layout Itemize
+Bayesian models estimate a separate variance for each marker, and the variances
+ are assumed to follow a specified prior distribution
+\end_layout
+
+\begin_layout Description
+BayesA:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Allow variance toward zero, but did not permit the value of zero itself
+\end_layout
+
+\end_deeper
+\begin_layout Description
+BayesB:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Allows markers to have a variance of zero.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+BayesCπ:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Assumes common marker variance and allows for some markers to have no effect
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Description
+Bayesian
+\begin_inset space ~
+\end_inset
+
+vs
+\begin_inset space ~
+\end_inset
+
+RR-Blup:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Bayesian methods outperformed RR-BLUP through better estimation of large-effect
+ QTL by allowing for unequal variances.
+\end_layout
+
+\begin_layout Itemize
+Studies show only slight differences between their accuracies (RR-BLUP,
+ BayesA, BayesB, and BayesCπ).
+\end_layout
+
+\begin_layout Itemize
+Studies concluded that GS accuracy was not strongly influenced by model
+ choice.
+\end_layout
+
+\begin_layout Itemize
+One of the draw backs of the Bayesian approach is its computational complexity
+ which results in long run times.
+\end_layout
+
+\begin_layout Itemize
+Computational complexity has led many researchers and breeders to rely on
+ the RR-BLUP model.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+The
+\begin_inset space ~
+\end_inset
+
+best
+\begin_inset space ~
+\end_inset
+
+approach:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The best approach for using molecular markers in GS largely depends on the
+ genetic architecture of the trait
+\end_layout
+
+\begin_layout Itemize
+For a given number of markers (
+\begin_inset Formula $N_{M}$
+\end_inset
+
+), RR-BLUP assumes that each marker accounts for 
+\begin_inset Formula $(\frac{1}{N_{M}})^{th}$
+\end_inset
+
+ of the total genetic variation (
+\begin_inset Formula $V_{G}$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+If one of the markers corresponds to a known 
+\series bold
+major gene
+\series default
+, the 
+\series bold
+assumption of common variance
+\series default
+ for the known major gene leads to an 
+\series bold
+underestimation
+\series default
+ of the estimated effects of the major gene.
+\end_layout
+
+\begin_layout Itemize
+An alternative to the modelling all genes as random effects with equal variance
+ is to 
+\series bold
+model known major genes or QTLs as fixed effects
+\series default
+ in a model with genome-wide markers as random effects.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+RR-BLUP
+\begin_inset space ~
+\end_inset
+
+with
+\begin_inset space ~
+\end_inset
+
+major
+\begin_inset space ~
+\end_inset
+
+genes:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+RR-BLUP models with fixed effects of major genes were shown to provide greater
+ GS prediction accuracy when trait heritability was high and a large percentage
+ of 
+\begin_inset Formula $V_{G}$
+\end_inset
+
+ was explained by the major genes.
+\end_layout
+
+\begin_layout Itemize
+It was also shown that as the 
+\series bold
+number of training population individuals decreased
+\series default
+, it became more advantageous 
+\series bold
+to consider major genes as fixed effects
+\series default
+ rather than random effects.
+\end_layout
+
+\begin_layout Itemize
+These results were consistent whether there was a single major gene or whether
+ there were multiple major genes 
+\end_layout
+
+\begin_layout Itemize
+Although treating a major gene as a fixed effect can increase GS prediction
+ accuracy, using a major gene as a fixed effect puts a stronger selection
+ pressure on the major gene which can lead to more drastic changes in gene
+ frequency
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

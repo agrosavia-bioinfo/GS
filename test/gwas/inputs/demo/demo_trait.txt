@@ -1,0 +1,1 @@
+/home/lg/downloads/gwas/iPat/data/demo/Case_1/demo_trait.txt

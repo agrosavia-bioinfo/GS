@@ -1,0 +1,8 @@
+SeqBreed:
+- A generic and flexible forward simulator
+- GP can be difficult to implement when exist uncertainty about the genetic basis of complex traits.
+- SeqBreed takes genotype/sequence data from a founder population and simulates phenotypes according to a predetermined genetic architecture.
+
+DeepLearning in GS:
+-  A potential advantage of DL for GP over standard linear model methods is that DL can potentially take into account all
+genetic interactions, including dominance and epistasis, which are expected to be of special relevance in most polyploids

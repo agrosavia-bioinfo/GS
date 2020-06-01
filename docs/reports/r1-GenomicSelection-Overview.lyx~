@@ -1,0 +1,360 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Genomic Selection to Improve Crop Variety
+\end_layout
+
+\begin_layout Section
+Approaches to accomplish plant breeding
+\end_layout
+
+\begin_layout Itemize
+Conventional:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Hybridization between diverse parents and subsequent selection over a number
+ of generation 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Marker-Asisted breeding (MAB):
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Use of molecular markers
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Marker-Asisted breeding (MAB)
+\end_layout
+
+\begin_layout Itemize
+Use of 
+\series bold
+molecular markers
+\series default
+ for the indirect selection on trait of interest in crop species.
+\end_layout
+
+\begin_layout Itemize
+Requires 
+\series bold
+minimum phenotypic information 
+\series default
+during training phase
+\end_layout
+
+\begin_layout Itemize
+Initiated to solve limitations of conventional breeding
+\end_layout
+
+\begin_layout Itemize
+Two kinds:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Marker-assisted selection (MAS)
+\end_layout
+
+\begin_layout Itemize
+Genomic Selection (GS)
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Marker-assisted selection (MAS)
+\end_layout
+
+\begin_layout Itemize
+Uses 
+\series bold
+molecular markers known to be associated with trait of interest or phenotypes
+\series default
+ to select plants with desirable allele affecting target trait.
+\end_layout
+
+\begin_layout Itemize
+It is efficient 
+\series bold
+only for those traits that are controlled by fewer numbers of quantitative
+ trait loci (QTLs)
+\series default
+ having the major effect on trait expression.
+\end_layout
+
+\begin_layout Itemize
+Whereas for 
+\series bold
+complex quantitative traits 
+\series default
+which are governed by large number of minor QTLs, 
+\series bold
+the method is even inferior
+\series default
+ to conventional phenotypic selection
+\end_layout
+
+\begin_layout Section
+Genomic Selection (GS)
+\end_layout
+
+\begin_layout Itemize
+GS is not based on few markers as in MAS
+\end_layout
+
+\begin_layout Itemize
+GS estimates the genetic worth of the individual based on 
+\series bold
+large set of marker information
+\series default
+ distributed across the whole genome.
+\end_layout
+
+\begin_layout Itemize
+The GS develops the 
+\series bold
+prediction model
+\series default
+ based on the 
+\series bold
+genotypic and phenotypic 
+\series default
+data of 
+\series bold
+training population (TP).
+\end_layout
+
+\begin_layout Itemize
+The prediction model is used to derive 
+\series bold
+genomic estimated breeding values
+\series default
+ (GEBVs) for all the individuals of breeding population (BP) from their
+ genomic profile
+\end_layout
+
+\begin_layout Section
+Steps of Genomic Selection
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename r1-Overview-GenomicSelection.png
+	lyxscale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Genomic Selection with Cross Validation
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename classification-GenomicSelection-with-CrossValidation.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\series bold
+Genomic Estimated Breeding Values
+\series default
+ (GEBVs)
+\end_layout
+
+\begin_layout Itemize
+The GEBVs allow us to predict individuals that will perform better.
+\end_layout
+
+\begin_layout Itemize
+The predicted individuals are suitable either as a parent in hybridization
+ or for next generation advancement of the breeding program.
+\end_layout
+
+\begin_layout Itemize
+Because the molecular markers of these predicted individuals are similar
+ to that of other plants of TP that have been recorded to perform better
+ in the particular environments.
+ 
+\end_layout
+
+\begin_layout Section
+Classification of Prediction Models in Genomic Selection
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename classification-PredictionModels-GenomicSelection.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+For a parametric model to predict new data, knowing just the parameters
+ is enough 
+\end_layout
+
+\begin_layout Itemize
+For a non parametric model, predicting future data is based on:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+not just the parameters, 
+\end_layout
+
+\begin_layout Itemize
+but also in the current state of data that has been observed.
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Basic Model for GBLUP and Bayesian Methods
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y=X\beta+Z\alpha+\varepsilon
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $y$
+\end_inset
+
+ : vector of phenotypes
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $X$
+\end_inset
+
+ : incidince matrix for the fixed effects
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\beta$
+\end_inset
+
+ : vector of non-genetic fixed effects
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\alpha$
+\end_inset
+
+ : vector of randon regression coefficients of all the marker effects
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Z$
+\end_inset
+
+ : 
+\begin_inset Formula $nxk$
+\end_inset
+
+ genotypic matrix for markers
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+ : vector of residuals
+\end_layout
+
+\end_body
+\end_document

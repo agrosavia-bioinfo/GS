@@ -1,0 +1,67 @@
+Loading required package: gplots
+
+Attaching package: ‘gplots’
+
+The following object is masked from ‘package:stats’:
+
+    lowess
+
+Loading required package: LDheatmap
+Loading required package: genetics
+Loading required package: combinat
+
+Attaching package: ‘combinat’
+
+The following object is masked from ‘package:utils’:
+
+    combn
+
+Loading required package: gdata
+gdata: read.xls support for 'XLS' (Excel 97-2004) files ENABLED.
+
+gdata: read.xls support for 'XLSX' (Excel 2007+) files ENABLED.
+
+Attaching package: ‘gdata’
+
+The following object is masked from ‘package:stats’:
+
+    nobs
+
+The following object is masked from ‘package:utils’:
+
+    object.size
+
+The following object is masked from ‘package:base’:
+
+    startsWith
+
+Loading required package: gtools
+Loading required package: MASS
+Loading required package: mvtnorm
+
+
+NOTE: THIS PACKAGE IS NOW OBSOLETE.
+
+
+
+  The R-Genetics project has developed an set of enhanced genetics
+
+  packages to replace 'genetics'. Please visit the project homepage
+
+  at http://rgenetics.org for informtion.
+
+
+
+
+Attaching package: ‘genetics’
+
+The following objects are masked from ‘package:base’:
+
+    %in%, as.factor, order
+
+Loading required package: ape
+Loading required package: compiler
+Loading required package: EMMREML
+Loading required package: Matrix
+Loading required package: scatterplot3d
+There were 50 or more warnings (use warnings() to see the first 50)

@@ -1,0 +1,15 @@
+
+   Loading phenotype ...Done
+   Checking covariates ...Done
+   Checking kinship ...Done
+   Loading genotype ...Done
+   Loading map ...Done
+   Subsetting phenotype ...Done
+   Subsetting covariates ...Done
+   gBLUP is computing for trait y25 ...
+[1] "GAPIT.Phenotype.View in press..."
+   gBLUP is computing for trait y50 ...
+[1] "GAPIT.Phenotype.View in press..."
+   gBLUP is computing for trait y75 ...
+[1] "GAPIT.Phenotype.View in press..."
+[1] TRUE
